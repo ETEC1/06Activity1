@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Mobile Web App</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="styles/custom.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+  <link rel="stylesheet" href="themes/Module05Lab.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  
+  
+<head>
+<title>Google Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+</head>
+<body>
+	<div id="page" data-role="page" data-theme="a" data-add-back-btn="true">
+		<div data-role="header" data-theme="a">
+		  <div class="logo"><img src="bear.png" width="150" height="100" alt=""/></div>
+	</div>	
+	
+	<div data-role="panel" id="myPanel">
+<h1>PANEL HEADER</h1>
+<ul data-role="listview" data-theme="c">
+<li class="menu"><a href="#slot1">MINNESOTA</a></li>
+<li class="menu"><a href="#">IOWA</a></li>
+<li class="menu"><a href="#">SOUTH DAKOTA</a></li>
+<li class="menu"><a href="#">NORTH DAKOTA</a></li>
+<li class="menu"><a href="#">WISCONSON</a></li>
+<li class="menu"><a href="#">MICHIGAN</a></li>
+<li class="menu"><a href="#">ILLINOIS</a></li>
+<li class="menu"><a href="#">NEBRASKA</a></li>
+<li class="menu"><a href="#">MISSOURI</a></li>
+<li class="menu"><a href="#">TEXAS</a></li>
+</ul>
+</div>
+<div data-role="header">
+    <h1></h1>
+	<a href="#myPanel" class="ui-btn ui-btn-inline">Open Panel</a>
+  </div>  
+	
+  <div data-role="header">
+    <h1>A PAGE FOR DOGS</h1>
+  </div>
+	<div data-role="content">
+		<ul data-role="listview" data-theme="c" data-filter="true">
+			<li><a href="#section1">SMALL</a></li>
+            <li><a href="#section2">MEDIUM</a></li>
+			<li><a href="#section3">LARGE</a></li>		
+			<li><a href="#grid">Grid</a></li>
+		</ul>		
+	</div>
+	
+	<div data-role="content">
+		<ul data-role="listview" data-theme="c" data-filter="true">			
+			<li><a href="#grid">Grid</a></li>
+		</ul>		
+	</div>
+		<h2>Recommended Dog Foods</h2>
+		
+<ol type="a">
+  <li>Taste Of The Wild</li>
+  <li>Blue</li>
+  <li>Purina</li>
+  <l class="material-icons" style="font-size:36px;">cloud</i>
+  <i class="material-icons" style="font-size:48px;color:red;">cloud</i>
+</ol>
+
+<body>
+   <h2>Enter your information</h2>
+<form action="www.onlydogbreeds.com/groups/size.html">
+  First name:<br>
+  <input type="text" value="">  
+  Last name:<br>
+  <input type="text" name="lastname" value="">  
+  City:
+  <input type="text" value="">  
+  Size of Dog:
+  <input type="text" value="">  
+  Number of Dogs:
+  <input type="text" value="">  
+  <input type="submit" value="Submit">
+  </form>
+ </body>
+ 
+</div>
+	<div data-role="footer" data-theme="a">
+	  <h4>Your App &copy; "JULY2019"</h4>
+  </div>
+</div>
+
+<div id="section1" data-role="page" data-theme="a" data-add-back-btn="true" data-transition="flip">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">
+	  <h1>SMALL DOGS</h1>
+	</div>
+	<div data-role="content">
+	  <h3>POODLE</h3>
+	  <p> This is a paragraph. </p>
+	</div>	
+	<head>
+<script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>
+</head>
+<body>
+<p><button onclick="clickCounter()" type="button">Click me!</button></p>
+<div id="result"></div>
+<p>Click the button to see the counter increase.</p>
+</body>	
+	<div data-role="footer" data-theme="a">
+	  <h4>Your App &copy; JULY2019</h4>
+	</div>
+</div>
+
+    <div id="section2" data-role="page" data-theme="a" data-add-back-btn="true">
+	<div data-role="header" data-theme="a" data-add-back-btn="true">	
+		<h1>MEDIUM DOGS</h1>		
+	</div>
+	<div data-role="content">
+	  <h3>BLACK LABS</h3>
+	  <p> This is a paragraph. </p>
+	  <h3>YELLOW LABS</h3>
+	  <p>This is a paragraph . </p>
+	</div>
+
+<script>
+(function() {
+var rasm = document.querySelector('.localstorage');
+function supportsLocalStorage() {
+return typeof(Storage)!== 'undefined';
+}
+if (!supportsLocalStorage()) {
+rasm.value = 'Your browser does not support localStorage.';
+} else {
+try {
+setInterval(function() {
+localStorage.setItem('autosave', rasm.value);
+}, 1000);
+} catch (e) {
+if (e == QUOTA_EXCEEDED_ERR) {
+alert('Quota exceeded!');
+}
+}
+if (localStorage.getItem('autosave')) {
+rasm.value = localStorage.getItem('autosave');
+}
+document.querySelector('.clear').onclick = function() {
+rasm.value = '';
+localStorage.removeItem('autosave');
+};
+document.querySelector('.empty').onclick = function() {
+rasm.value = '';
+localStorage.clear();
+};
+}
+})();
+</script>
+
+<div data-role="content">
+<textarea class="localstorage" placeholder="Anything you type here will be saved with HTML5 localStorage."
+ autofocus></textarea>
+<button class="clear">Clear localStorage</button>
+<button class="empty">Empty localStorage</button>
+</div>
+	
+	<div data-role="footer" data-theme="a">
+		<h4>Your App &copy; July2019</h4>
+	</div>
+</div>
+
+    <div id="section3" data-role="page" data-theme="a" data-add-back-btn="true">	
+    <div data-role="header" data-theme="a" data-add-back-btn="true">
+    <h1>VERY LARGE DOGS</h1>	
+	</div>
+	  <div data-role="content">
+	  <h3>ST BERNARD</h3>
+	  <p> This is a paragraph. </p>
+	  <h3>ENGLISH MASTIFF</h3>
+	  <p> This is a paragragh. </p>
+     </div>		 
+	 <div data-role="footer" data-theme="a" >
+	   <h4>Your App &copy; JULY2019</h4>
+	 </div>	
+
+
+<div data-role="page" id="grid" data-theme="a" data-add-back-btn="true">
+<div data-role="header" data-theme="a" data-add-back-btn="true">
+<h1>Grid</h1>
+</div>
+<div data-role="content">
+<div class="ui-grid-a">
+<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
+</div>
+</div>
+
+	 
+ 	 
+	 
+	 <div data-role="footer" data-theme="a">
+    <h4>Footer</h4>
+  </div>
+</div>
+</body>
+</html>
